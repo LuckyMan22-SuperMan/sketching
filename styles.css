@@ -38,9 +38,9 @@ body {
 }
 
 .element {
-    border: 1px rgb(8, 95, 95) solid;
+    border: 1px teal solid;
     flex: 1;
-    background-color: rgb(71, 151, 222);
+    background-color: aliceblue;
 }
 
 .element:hover {
@@ -72,7 +72,7 @@ body {
     border-radius: 8px;
     background-color: teal;
     color: white;
-    border: 3px rgb(226, 117, 135) solid;
+    border: 3px pink solid;
     font-size: 25px;
     width: 30px;
     height: 30px;
