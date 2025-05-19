@@ -1,0 +1,38 @@
+body {
+    background-color: teal;
+    color: white;
+    padding: 60px 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.instructions {
+    font-size: 25px;
+    align-self: flex-start;
+    color: burlywood;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    border: 10px pink solid;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    flex: 1;
+}
